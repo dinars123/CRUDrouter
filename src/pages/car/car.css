@@ -1,0 +1,49 @@
+
+.travelContainer{
+    width: 100%;
+}
+
+.titleCenter{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.H1{
+    font-size: 36px;
+}
+
+.card {
+    padding: 2em;
+  }
+  
+
+.carWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+.splitText{
+    display: flex;
+    justify-content: space-between;
+}
+
+.car-card{
+    border: 1px solid #8a4444;
+    border-radius: 10px;
+    padding: 20px;
+  max-width: 270px;
+  align-self: center;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.goBack{
+   padding: 5px 10px;
+}
